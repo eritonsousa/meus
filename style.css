@@ -42,14 +42,40 @@ img {
     padding-left: 80px;
 }
 
-#capa {
+.capa {
     height: 400px;
     margin: 0px;
     background-image: url(_imagens/capa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
 
+.capa1 {
+    height: 400px;
+    margin: 0px;
+    background-image: url(_imagens/carro01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
+.capa2 {
+    height: 400px;
+    margin: 0px;
+    background-image: url(_imagens/carro02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section > p {
+    position: absolute;
+    top: 307px;
+    right: 435px;
+    font-size: 3em;
+    font-family: var(--fonteMenu);
+    color: white;
+    text-shadow: 2px 2px 2px red;
 }
 
